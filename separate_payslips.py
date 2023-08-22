@@ -73,10 +73,10 @@ def find_employee_folder(employee, employee_folders):
     return None
 
 # Directory where folders with the names of each active employee are located
-employee_folders = r"H:\.shortcut-targets-by-id\1TjPx4SofvjBSzmIgemloBpN2p0Z1A036\VRH\Funcionários\Planilha de funcionários\Ativos"
+employee_folders = r"C:\Employees"
 
 # Directory of the PDF that needs to be separated
-pdf_path = r"H:\.shortcut-targets-by-id\1TjPx4SofvjBSzmIgemloBpN2p0Z1A036\VRH\Funcionários\Planilha de funcionários\Adiantamento_Salario_Agosto_2023.pdf"
+pdf_path = r"C:\Payslips"
 
 # Final name of the pdf file to be saved in the "Payslips" folder inside each employee's folder. Ex: Salary_July_2023.pdf
 final_pdf_name = f"August_Salary.pdf"
